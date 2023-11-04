@@ -1,0 +1,121 @@
+.reset-list {
+  margin-top: 0;
+  margin-bottom: 0;
+  list-style-type: none;
+  padding-left: 0;
+}
+.product {
+  width: 502px;
+}
+.product li {
+  padding: 0;
+  position: relative;
+  display: flow-root;
+  text-align: center;
+  border: 1px solid #C4C4C4;
+  background: #FFF;
+  height: 310px;
+  box-sizing: border-box;
+}
+.product li:hover {
+  border: 1px solid #0074E9;
+}
+.product li:nth-child(1) {
+  margin-bottom: 14px;
+}
+.product li:nth-child(2) {
+  float: left;
+}
+.product li:nth-child(3) {
+  float: right;
+}
+.product .logo, 
+.product .img img {
+ display: inline-block;
+ vertical-align: top;
+}
+.product .name {
+  text-align: center;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 700;
+  line-height: 150%;
+  margin: 0;
+}
+.product .size-1 {
+  padding: 20px 28px;
+}
+.product .size-1 .text {
+  display: inline-block;  
+  vertical-align: middle;
+  width: 192px;
+  margin-right: 24px;
+}
+.product .size-1 .img {
+  display: inline-block;
+  vertical-align: middle;
+}
+.product .size-1 .logo {
+  margin-bottom: 13px;
+}
+.product .size-1 .name {
+  color: #4E4E4E;
+  font-size: 24px;
+}
+.product .size-2 {
+  padding: 14px 23px;
+  width: 243px;
+}
+.product .size-2 .logo {
+  margin-bottom: 10px;
+}
+.product .size-2 .name {
+  color: #555;
+  font-size: 18px;
+  margin-bottom: 7px;
+}
+.product .button {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+.product .button .button-img {
+  display: inline-block;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  padding: 12px 18px 13px 18px;
+  background: rgba(0, 0, 0, 0.20);
+  color: #FFF;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+}
+.product .button .button-img::after {
+  content: '';
+  display: inline-block;
+  width: 6px;
+  height: 10px;
+  background: url(./images/angle-right.png) no-repeat 50% 50%;
+}
+.product .button:not(:hover) .button-img span {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  clip-path: polygon(0 0, 0 0, 0 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+.product .button:hover .button-img {
+  background: #0074E9;
+  padding: 12px 18px 13px 20px;
+}
+.product .button:hover .button-img::after {
+  margin-left: 16px;
+}
