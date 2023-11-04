@@ -1,4 +1,4 @@
-###### mission-01
+##### mission-01
 
 ###### html
 ```html
@@ -52,3 +52,9 @@
 </body>
 </html>
 ```
+
+###### class 설명
+- reset-list : ul 기본 스타일 삭제
+- product : 제품 목록
+- size-1 : 큰 이미지 클래스
+- size-2 : 작은 이미지 클래스
