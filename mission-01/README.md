@@ -57,4 +57,5 @@
 - size-1 : 큰 이미지 클래스
 - size-2 : 작은 이미지 클래스
 
-#### [mission-01.html](https://rnssue.github.io/home-work/mission-01/mission-01.html){: target="_blank"}
+#### 페이지
+[mission-01.html](https://rnssue.github.io/home-work/mission-01/mission-01.html)
