@@ -1,4 +1,4 @@
-###### html
+#### html
 ```html
 <!DOCTYPE html>
 <html lang="ko">
@@ -51,7 +51,7 @@
 </html>
 ```
 
-###### class 설명
+#### class 설명
 - reset-list : ul 기본 스타일 삭제
 - product : 제품 목록
 - size-1 : 큰 이미지 클래스
