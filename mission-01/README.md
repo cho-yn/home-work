@@ -1,9 +1,10 @@
-```
+#### html
+```html
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>mission-01</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -11,7 +12,7 @@
     href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;700&family=Noto+Serif+KR:wght@200;300;400;500;600;700;900&display=swap"
     rel="stylesheet"
   />
-  <link rel="stylesheet" href="./mission-01.css">
+  <link rel="stylesheet" href="./mission-01.css" />
 </head>
 <body>
   <ul class="product reset-list">
@@ -49,3 +50,12 @@
 </body>
 </html>
 ```
+
+#### class 설명
+- reset-list : ul 기본 스타일 삭제
+- product : 제품 목록
+- size-1 : 큰 이미지 클래스
+- size-2 : 작은 이미지 클래스
+
+#### 페이지
+[mission-01.html](https://rnssue.github.io/home-work/mission-01/mission-01.html)
