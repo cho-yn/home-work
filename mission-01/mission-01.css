@@ -100,7 +100,7 @@
   height: 10px;
   background: url(./images/angle-right.png) no-repeat 50% 50%;
 }
-.product .button:not(:hover) .button-img span {
+.product .button:not(:hover, :focus) .button-img span {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -112,10 +112,12 @@
   white-space: nowrap;
   border-width: 0;
 }
-.product .button:hover .button-img {
+.product .button:hover .button-img,
+.product .button:focus .button-img {
   background: #0074E9;
   padding: 12px 18px 13px 20px;
 }
-.product .button:hover .button-img::after {
+.product .button:hover .button-img::after,
+.product .button:focus .button-img::after {
   margin-left: 16px;
 }
