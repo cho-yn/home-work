@@ -66,6 +66,20 @@
 </html>
 ```
 
+###### 반응형 css
+
+```css
+// 모바일
+
+@media (min-width: 600px) {
+  // 태블릿, 데스크탑 등
+}
+```
+
+###### 태블릿, 데스크탑 화면
+![title](https://rnssue.github.io/home-work/mission-02/readme/desktop.JPG)   
+
+
 #### 상태 설명
 | normal | focus | invalid | valid |
 | --- | --- | --- | --- |
