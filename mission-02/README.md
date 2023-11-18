@@ -7,9 +7,9 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>mission-02</title>
-  <link href='//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css' rel='stylesheet' type='text/css'>
+  <link href="//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css" rel="stylesheet" type="text/css" />
   <link rel="stylesheet" href="./normalize.css" />
-  <link rel="stylesheet" href="./mission-02.css">
+  <link rel="stylesheet" href="./mission-02.css" />
 </head>
 <body>
   <main class="main">
