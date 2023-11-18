@@ -1,0 +1,54 @@
+.selectbox {
+  position: relative;
+}
+.selectbox::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 0.625em;
+  transform: translateY(-50%);
+  width: 1rem;
+  height: 1rem;
+  background: url(./../../images/global.svg) no-repeat center / contain;
+}
+.selectbox::after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 0.625em;
+  transform: translateY(-50%);
+  width: 1rem;
+  height: 1rem;
+  background: url(./../../images/bi_caret-down-fill.svg) no-repeat center / contain;
+}
+select {
+  background-color: transparent;
+  color: var(--gray-500, #757575);
+  appearance: none;
+  padding: 0.75em 2.125em;
+  border-radius: 2px;
+  border: 1px solid var(--gray-500, #757575);
+  font-size: 1rem;
+  line-height: 1.2;
+}
+select:focus {border-radius: 2px;
+  outline: 3px solid var(--green-500, #2EDE75);
+}
+
+button {
+  border-radius: 0.25em;
+  background: var(--red-500, #E50914);
+  padding: 0.75em 1.25em;
+  border: 0;
+  color: var(--White, #FFF);
+  font-weight: 700;
+  font-size: 0.75em;
+}
+@media (min-width: 768px) {
+  button {
+    padding: 0.75em 1.25em;
+    font-size: 1em;
+  }
+}

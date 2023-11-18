@@ -1,0 +1,13 @@
+  .logo-link {
+    --size: 2.5em;
+  
+    display: block;
+    width: var(--size);
+    aspect-ratio: 3.6/1;
+  }
+  
+  @media (min-width: 768px) {
+    .logo-link {
+      width: 4.375em;
+    }
+  }
