@@ -5,3 +5,12 @@
 @import './../components/footer/index.css';
 @import './../components/template/index.css';
 @import './../components/promotion/index.css';
+
+/* 컴포넌트 컨테이너 */
+.component-container {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}

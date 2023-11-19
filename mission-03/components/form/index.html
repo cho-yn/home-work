@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css" type="text/css">
+    <link rel="stylesheet" href="./../../css/style.css" />
+</head>
+<body>
+  <div class="component-container">
+    <form action="/" method="POST" class="promotion-form">
+      <div class="form-input-wrapper member-id is--invalid is--focus">
+        <label for="userEmail" class="form-input-label">이메일 주소</label>
+        <input
+          type="email"
+          class="form-input"
+          id="userEmail"
+          name="userEmail"
+          aria-required="true"
+          aria-invalid="false"
+          aria-describedby="emailErrorFeedback"
+        />
+        <span role="alert" id="emailErrorFeedback" class="form-message"
+          >정확한 이메일 주소를 입력하세요.</span
+        >
+      </div>
+      <div class="button-container">
+        <button
+          type="submit"
+          class="button-signin button-fill"
+          disabled="disabled"
+        >
+          30일 무료 이용
+        </button>
+      </div>
+    </form>
+  </div>
+</body>
+</html>
