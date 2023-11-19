@@ -133,7 +133,7 @@
 #### 상태 설명
 | normal | focus | invalid | disabled |
 | --- | --- | --- | --- |
-| ![title](https://rnssue.github.io/home-work/mission-03/readme/1.png) | ![title](https://rnssue.github.io/home-work/mission-03/readme/2.png) | ![title](https://rnssue.github.io/home-work/mission-03/readme/3.png) | ![title](https://rnssue.github.io/home-work/mission-03/readme/4.png) |
+| ![title](https://rnssue.github.io/home-work/mission-03/readme/1.png) | ![title](https://rnssue.github.io/home-work/mission-03/readme/2-1.png) | ![title](https://rnssue.github.io/home-work/mission-03/readme/3.png) | ![title](https://rnssue.github.io/home-work/mission-03/readme/4.png) |
 
 #### 페이지
 [mission-03.html](https://rnssue.github.io/home-work/mission-03/mission-03.html)
